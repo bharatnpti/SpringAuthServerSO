@@ -1,0 +1,10 @@
+server:
+  port: 5555
+  
+
+custom:
+  oauth2:
+    server:
+      registration.id: customAuthServer
+
+logging:  level:    org.springframework.security: trace
